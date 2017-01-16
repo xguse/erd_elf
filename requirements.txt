@@ -1,0 +1,28 @@
+# Use this file to create an environment using:
+# $ conda create --name <env_name> -c bioconda -c r -c pandas -c conda-forge -c gusdunn --file <this file>
+
+
+python>=3.5
+graphviz>=2.38.0
+pip
+Sphinx
+jupyter
+jupyter_nbextensions_configurator
+widgetsnbextension
+jupyter_contrib_nbextensions
+pandoc
+ipython
+
+
+# NEEDED BY CLI
+click
+munch
+ruamel.yaml
+pandas
+# engarde
+numexpr
+numpy
+xlrd
+xlwt
+tqdm>=4.10.0
+pygraphviz

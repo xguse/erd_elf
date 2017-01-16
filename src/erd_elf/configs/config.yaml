@@ -1,0 +1,63 @@
+# Default Configuration File for erd_elf.
+
+GRAPH:
+    fontcolor: black
+    fontsize: 12
+    fontname: Lato
+    rankdir: None
+    label: ''
+    margin: 0
+    
+    
+
+####### Node descriptions
+NODES:
+    BASE:
+        style: solid
+        shape: box
+        penwidth: 2
+        color: '#11A0DC'
+        fontname: Lato
+        fontcolor: black
+        fontsize: 11
+        
+    ENTITY:
+        shape: box
+        
+    ENTITY_WEAK:
+        peripheries: 2
+        
+    ATTR:
+        shape: ellipse
+        
+    PRIME_KEY:
+        style: filled
+        fontcolor: white
+        
+    MULTI_VAL:
+        peripheries: 2
+
+        
+    RELATIONSHIP:
+        shape: diamond
+    
+
+####### Edge descriptions
+EDGES:
+    BASE:
+        penwidth: 2
+        fontname: Lato
+        headlabel: None
+        taillable: None
+        arrowhead: normal
+        arrowtail: None
+        color: grey
+        labelfloat: 'false'
+        
+
+    ENTITY_TO_REL:
+        taillable: X
+
+    REL_TO_ENTITY:
+        headlabel: Y
+
